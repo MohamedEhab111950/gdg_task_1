@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td{
+         padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div align="center" style="color: rgb(22, 86, 89)">
+      <h1>John Doe Portfolio</h1>
+      <h3>Professional Web Developer</h3>
+    </div>
+    <h2 style="color: rgb(22, 86, 89)">About Me</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+      incidunt tempore libero aliquid sequi dolorem atque totam omnis provident
+      saepe, expedita nam. Reprehenderit ad pariatur fugiat. Consequatur
+      quisquam rerum soluta. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Molestiae eligendi optio odio magnam, repudiandae neque debitis
+      maiores corrupti unde itaque <br />
+      in explicabo corporis nemo? Similique soluta facere culpa aperiam! Saepe!
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae,
+      laboriosam voluptas. Error quisquam officiis aliquid alias doloremque
+      dolore ad magnam est, quidem earum corporis quam modi possimus quas
+      voluptates assumenda.
+    </p>
+    <h2 style="background-color: rgb(172, 207, 207)">skills</h2>
+    <ul>
+      <li><a href="#" style="color: rgb(0, 224, 209)">HTML</a></li>
+      <li><a href="#" style="color: rgb(0, 224, 209)">CSS</a></li>
+      <li><a href="#" style="color: rgb(0, 224, 209)">JS</a></li>
+      <li><a href="#" style="color: rgb(0, 224, 209)">React.JS</a></li>
+      <li><a href="#" style="color: rgb(0, 224, 209)">Angular</a></li>
+    </ul>
+    <h2 style="color: rgb(22, 86, 89)">Experiance TimeLine</h2>
+    <p align="center">Professional Experiance Overview</p>
+    <table border="1" style="width: 100%;">
+      <tr style="background-color: rgb(0, 93, 156); color: white;padding: 5px;">
+        <th style="padding: 10px">Company</th>
+        <th style="padding: 10px">Logo</th>
+        <th style="padding: 10px">Role</th>
+        <th style="padding: 10px">Key Achievements</th>
+        <th style="padding: 10px">Dates</th>
+      </tr>
+      <tr>
+        <td rowspan="2">TechCorp Solutions</td>
+        <td rowspan="2" style="text-align: center;"><img src="imgs/logo1.png" alt="" style="width: 100px;"></td>
+        <td>Senior Full Stack Developer</td>
+        <td>
+          <ul>
+            <li>Lead development of scalable applications</li>
+            <li>Mentor junior developers and ensure code quality</li>
+            <li>Architect scalable backend services</li>
+          </ul>
+        </td>
+        <td>
+          Jan 2023 - Present
+        </td>
+      </tr>
+      <tr>
+        <td>Full Stack Developer</td>
+        <td>
+          <ul>
+            <li>Level development of web applications</li>
+            <li>Mentor peers and improve collaboration</li>
+            <li>Enhance performance and reliability</li>
+          </ul>
+        </td>
+        <td>
+           2021 - 2023
+        </td>
+      </tr>
+      <tr>
+        <td>Digital Agency Pro</td>
+        <td style="text-align: center;"><img src="imgs/logo2.svg" alt="" style="width: 100px;"></td>
+        <td>Frontend Developer</td>
+        <td>
+          <ul>
+            <li>Built user interfaces from mockups</li>
+            <li>Implemented responsive designs</li>
+            <li>Conducted code reviews</li>
+          </ul>
+        </td>
+        <td>
+           2019 - 2020
+        </td>
+      </tr>
+      <tr>
+        <td>Web Design Studio</td>
+        <td style="text-align: center;"><img src="imgs/logo3.png" alt="" style="width: 100px;"></td>
+        <td>Junior Web Developer</td>
+        <td>
+          <ul>
+            <li>Maintained existing websites</li>
+            <li>Fixed bugs and implemented features</li>
+            <li>Learned best practices</li>
+          </ul>
+        </td>
+        <td>
+           2019 - 2020
+        </td>
+      </tr>
+    </table>
+    <h2 style="color: rgb(22, 86, 89)">Contact Me</h2>
+    <p>
+      Feel free to reach out to me using the form below. I would love to hear
+      from you!
+    </p>
+    <form action="">
+      <fieldset style="width: 400px; padding: 10px">
+        <legend>Personal Information</legend>
+        <label for="fname" style="margin-right: 30px">First Name : *</label>
+        <input type="text" id="fname" /><br /><br />
+        <label for="lname" style="margin-right: 30px">Last Name : *</label>
+        <input type="text" id="lname" /><br /><br />
+        <label for="email" style="margin-right: 30px">Email Address : *</label>
+        <input type="email" id="email" /><br /><br />
+        <label for="phone" style="margin-right: 30px">Phone Number : </label>
+        <input type="tel" id="phone" /><br /><br />
+        <label for="date" style="margin-right: 30px"
+          >Preferred Meeting Date :
+        </label>
+        <input type="date" id="date" /><br /><br />
+        <label for="time" style="margin-right: 30px"
+          >Best Time to Contact :
+        </label>
+        <input type="time" id="time" />
+      </fieldset>
+      <br />
+      <fieldset style="width: 400px; padding: 10px">
+        <legend>Project Details</legend>
+        <label for="project_type" style="margin-right: 30px"
+          >Project Type : *</label
+        >
+        <input type="text" id="project_type" /><br /><br />
+        <label for="project_des" style="margin-right: 30px"
+          >Project Description : *</label
+        >
+        <input type="text" id="project_des" /><br /><br />
+        <label>Budget Range :</label><br /><br />
+        <input type="radio" name="budget" id="budget1" />
+        <label for="budget1">Under $5,000</label><br />
+        <input type="radio" name="budget" id="budget2" />
+        <label for="budget2">$5,000 - $10,000</label><br />
+        <input type="radio" name="budget" id="budget3" />
+        <label for="budget3">$10,000 - $25,000</label><br />
+        <input type="radio" name="budget" id="budget4" />
+        <label for="budget4">Over $25,000</label><br /><br />
+
+        <label>Services Required (Check all that apply) :</label><br /><br />
+        <input type="checkbox" name="Services" id="ui" />
+        <label for="ui">UI/UX Design</label><br />
+        <input type="checkbox" name="Services" id="front" />
+        <label for="front">Frontend Development</label><br />
+        <input type="checkbox" name="Services" id="back" />
+        <label for="back">Backend Development</label><br />
+        <input type="checkbox" name="Services" id="Hosting" />
+        <label for="Hosting">Hosting & Deployment</label><br />
+        <input type="checkbox" name="Services" id="Maintenance" />
+        <label for="Maintenance">Maintenance & Support</label><br /><br />
+
+        <label for="source">How did you hear about me ?</label><br /><br />
+        <select name="source" id="source">
+          <option value="" selected>-- Select Source --</option>
+          <option value="Social">Social Media</option>
+          <option value="Friends">Friends</option>
+          <option value="Other">Other</option>
+        </select>
+        <br />
+      </fieldset>
+      <br />
+      <button
+        type="submit"
+        style="background-color: rgb(172, 207, 207); color: white"
+      >
+        Send Message
+      </button>
+      <button type="reset" style="background-color: brown; color: white">
+        Clear Form
+      </button>
+    </form>
+  </body>
+</html>
